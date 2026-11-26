@@ -124,3 +124,24 @@ int main() {
 
     return 0;
 }
+
+Algorithm
+Part A: Convert Infix to Postfix
+1. Start.
+2. Read the infix expression.
+3. Create an empty stack and an empty postfix string.
+4. Scan the expression from left to right.
+5. If the character is a digit, add it to postfix.
+6. If it is (, push it onto the stack.
+7. If it is ), pop operators until ( is found.
+8. If it is an operator, pop operators having higher or equal priority, then push the current operator.
+9. Pop all remaining operators into postfix.
+10. Display the postfix expression.
+Part B: Evaluate Postfix
+11. Create an empty stack.
+12. Scan the postfix expression.
+13. If the character is a digit, push it onto the stack.
+14. If it is an operator, pop two values and perform the operation.
+15. Push the result back onto the stack.
+16. Display the final result.
+17. Stop.
