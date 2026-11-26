@@ -193,3 +193,29 @@ int main() {
 
     return 0;
 }
+
+Algorithm
+1. Start.
+2. Create an empty Binary Search Tree (BST).
+3. Display the menu with the following operations:
+   - Add keyword
+   - Delete keyword
+   - Update meaning
+   - Display ascending order
+   - Display descending order
+   - Find maximum comparisons
+4. Add keyword:
+   - Create a new node.
+   - If the keyword is smaller, insert it into the left subtree.
+   - If the keyword is greater, insert it into the right subtree.
+5. Delete keyword:
+   - Search for the keyword.
+   - If found, delete the node and adjust the tree.
+6. Update meaning:
+   - Search for the keyword.
+   - If found, replace its old meaning with the new meaning.
+7. Display ascending: Use inorder traversal (Left, Root, Right).
+8. Display descending: Use reverse inorder traversal (Right, Root, Left).
+9. Maximum comparisons: Calculate the height of the BST.
+10. Repeat until the user selects Exit.
+11. Stop.
