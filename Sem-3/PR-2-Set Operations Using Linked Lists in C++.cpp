@@ -116,3 +116,35 @@ int main()
 
     return 0;
 }
+
+
+Algorithm
+1. Start.
+2. Create two linked lists, A and B.
+3. Read the number of students who like Vanilla.
+4. Insert their details into linked list A.
+5. Read the number of students who like Butterscotch.
+6. Insert their details into linked list B.
+7. Find Union (A ∪ B):
+   - Traverse linked list A and display all students.
+   - Traverse linked list B.
+   - Display only students who are not already present in A.
+8. Find Intersection (A ∩ B):
+   - Traverse linked list A.
+   - Check whether each student is present in B.
+   - Display students present in both lists.
+9. Find Only Vanilla (A - B):
+   - Traverse linked list A.
+   - Display students who are not present in B.
+10. Find Only Butterscotch (B - A):
+    - Traverse linked list B.
+    - Display students who are not present in A.
+11. Find students who like neither:
+    - Read the total number of students in the class.
+    - Count the unique students present in A or B.
+    - Calculate:
+    \[
+    \text{Neither} = \text{Total Students} - |A \cup B|
+    \]
+12. Display all results.
+13. Stop.
