@@ -84,3 +84,22 @@ int main() {
 
     return 0;  // End program
 } 
+
+
+Algorithm
+1. Start.
+2. Define a structure Student containing PRN, date and month.
+3. Read the number of students in Array A and Array B.
+4. Enter student details (PRN, date and month) into both arrays.
+5. Create a third array SE_AIML_DOB.
+6. Initialize three variables i = 0, j = 0 and k = 0.
+7. Compare the birth dates of Array A and Array B:
+   - Compare the month first.
+   - If months are equal, compare the dates.
+   - Copy the earlier birthday into the third array.
+   - Increase the corresponding index.
+8. Repeat until one of the arrays becomes empty.
+9. Copy the remaining elements of Array A into the third array.
+10. Copy the remaining elements of Array B into the third array.
+11. Display the merged sorted array.
+12. Stop.
